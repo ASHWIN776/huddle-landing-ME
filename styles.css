@@ -100,6 +100,7 @@ nav button{
     padding: 4rem;
     width: 90%;
     margin: 0 auto; 
+    padding-bottom: 6rem;
 }
 
 #info > div{
@@ -130,5 +131,36 @@ nav button{
 
 .infoImageContainer:nth-of-type(1){
     justify-content: flex-start;
+}
+
+
+/* Absolute Section Styles */
+#absoluteSection{
+    position: relative;
+}
+
+#absoluteSection div{
+    border: 2px solid rgb(225, 224, 224);
+    background-color: white;
+    text-align: center;
+    padding: 2rem 3rem;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#absoluteSection button{
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+/* Footer Styles */
+footer{
+    height: 400px;
+    background-color: hsl(192, 100%, 9%);
 }
 
