@@ -161,6 +161,7 @@ footer{
     padding: 8rem 2rem 2rem 2rem;
 }
 
+
 #moreDetailsContainer{
     display: flex;
     justify-content: space-around;
@@ -176,6 +177,10 @@ footer{
     margin: 10px 0;
     column-gap: 20px;
     align-items: flex-start;
+}
+
+#contactContainer img{
+    color: white;
 }
 
 .linksContainer{
@@ -218,5 +223,7 @@ footer{
     height: 16px;
     width: 20px;
 }
+
+
 
 
